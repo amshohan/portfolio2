@@ -8,35 +8,63 @@ body{
 }
 
 header{
-    margin: 0px 5% 0px 5%;
+    width: 94%;
+    margin: 80px auto 0px auto;
 }
 
 .for-margin{
     width: 100%;
     max-width: 1140px;
+    margin: 0px auto 0px auto;
     background-color: #01546b;
+    overflow: hidden;
 }
 
 .for-heading{
     display: inline-block;
-    /* width: 20%; */
+    width: 20%;
+}
+.for-heading h1{
+    color: #fff;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-variant: small-caps;
+    margin: 0 30px 0;
+    line-height: 75px;
+}
+.for-heading, .for-navigation{
+    float: left;
 }
 
 .for-navigation{
     overflow: hidden;
-    display: inline-block;
     width: 80%;
+    line-height: 75px;
 }
 
-header ul{
+.for-margin ul{
     list-style: none;
-    /* text-align: right; */
+    text-align: right;
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
 }
 
-header ul li{
-    float: left;
+.for-margin ul li{
+    display: inline-block;
+    margin-right: 20px;
 }
 
-header ul ul{
+.for-margin ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.for-margin ul ul{
     display: none;
 }
+
