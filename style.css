@@ -58,13 +58,30 @@ header{
     margin-right: 20px;
 }
 
-.for-margin ul li a{
+.for-margin ul li{
     color: #fff;
     text-decoration: none;
 }
 
+.for-margin ul li:first-child{
+    color: #0AC6FC;
+}
 
-.for-margin ul ul{
+.for-margin ul li:hover{
+    color: #0AC6FC;
+}
+
+.for-margin ul li ul{
     display: none;
+    position: absolute;
+    clear: both;
+}
+
+.for-margin ul li ul li{
+    float: none;
+}
+
+.for-margin ul li:hover ul{
+    display: block;
 }
 
